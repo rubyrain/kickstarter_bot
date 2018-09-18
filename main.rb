@@ -47,7 +47,7 @@ end
 
 def main() 
     while true
-        p get_response("https://www.kickstarter.com/projects/dazz3dprinter/dazz-3d-the-most-advanced-lcd-sla-3d-printer?ref=user_menu", $reward_id )
+        p get_response($go_url, $reward_id )
         sleep 2
     end
 end
